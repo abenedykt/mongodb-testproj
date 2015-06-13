@@ -2,7 +2,7 @@ import bottle
 
 @bottle.route('/')
 def home_page():
-        return "<html><body><b>Hello world</b></body></html>"
+        return "<html><body><b>Hello World</b></body></html>"
 
 @bottle.route('/testpage')
 def test_page():
